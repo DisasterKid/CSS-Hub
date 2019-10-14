@@ -1,0 +1,26 @@
+body {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    background-color: white;
+}
+
+li {
+    text-align: center;
+    color: blue;
+}
+
+#one {
+    text-align: left;
+    color: red;
+}
+
+#two {
+    text-align: right;
+    color: green;
+}
