@@ -5,9 +5,20 @@ body {
 h1 {
     text-align: center;
 }
+#one {
+    background-color: red;
+ }
+ 
+ #two {
+     background-color: snow;
+ }
 
 div {
-    background-color: white;
+    background-color: green;
+    height: 250px;
+    width: 250px;
+    animation-name: box;
+    animation-duration: 4s;
 }
 
 li {
@@ -15,12 +26,8 @@ li {
     color: blue;
 }
 
-#one {
-    text-align: left;
-    color: red;
-}
 
-#two {
-    text-align: right;
-    color: green;
+@keyframes box {
+    from {background-color: green;}
+    to {background-color: cornflowerblue;}
 }
