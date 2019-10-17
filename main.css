@@ -17,8 +17,11 @@ div {
     background-color: green;
     height: 250px;
     width: 250px;
+    position: relative;
     animation-name: box;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
 }
 
 li {
@@ -28,6 +31,9 @@ li {
 
 
 @keyframes box {
-    from {background-color: green;}
-    to {background-color: cornflowerblue;}
+   0% {background-color: red; left: 0px; top: 0px;}
+   25% {background-color: green; left: 300px; top: 0px;}
+   50% {background-color: yellow; left: 300px; top: 300px;}
+   75% {background-color: blue; left: 0px; top: 300px;}
+   100% {background-color: red; left: 0px; top: 0px;}
 }
