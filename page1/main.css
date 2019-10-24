@@ -1,0 +1,19 @@
+body {
+    background-color: grey;
+}
+
+
+.navBar {
+    background-color: white;
+    margin: 0px;
+    padding: 25px;
+}
+
+.navBar a {
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    background-color: black;
+}
+
